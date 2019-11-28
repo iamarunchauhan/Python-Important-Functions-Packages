@@ -25,7 +25,7 @@ l = [['a','b'],['c','d']]
 ['a','b','c','d']
 
 ### 3. divmod 
-* It will return the quotient(a//b) and remainder(a%b)
+* It will return the quotient(a//b) and remainder(a%b) (For Python 3)
 
 a  = 187
 
