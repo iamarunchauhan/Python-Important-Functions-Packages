@@ -34,3 +34,17 @@ b = 10
 ``` print(divmod(a,b)) ```
 
 (18,7)
+
+### 4. product
+
+from itertools import product
+
+a = [1, 2]
+
+b = [4, 5]
+
+c = [6, 7]
+
+```print(*product(a, b, c))```
+
+(1,4,6) (1,4,7) (1,5,6) (1,5,7) (2,4,6) (2,4,7) (2,5,7)
